@@ -49,6 +49,10 @@ ApolloLink.from([
 ]);
 ```
 
+## Screenshots
+
+![Example Output](https://github.com/blackxored/apollo-link-logger/blob/master/docs/example-output.png)
+
 ## Developing
 
 ### Setting up Dev
