@@ -1,0 +1,23 @@
+{
+  "projectName": "apollo-link-logger",
+  "projectOwner": "blackxored",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "blackxored",
+      "name": "Adrian Perez",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/133308?v=4",
+      "profile": "https://adrianperez.codes",
+      "contributions": [
+        "code",
+        "doc",
+        "infra",
+        "test"
+      ]
+    }
+  ]
+}
