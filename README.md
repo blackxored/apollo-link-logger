@@ -51,7 +51,17 @@ ApolloLink.from([
 
 ## Screenshots
 
-![Example Output](https://github.com/blackxored/apollo-link-logger/blob/master/docs/example-output.png)
+### Query (expanded):
+
+![Query Expanded](https://github.com/blackxored/apollo-link-logger/blob/master/docs/example-output.png)
+
+### Mutation (expanded)
+
+![Mutation Expanded](https://github.com/blackxored/apollo-link-logger/blob/master/docs/example-output-mutation.png)
+
+### Within other logging statements
+
+![Full](https://github.com/blackxored/apollo-link-logger/blob/master/docs/example-output-full.png)
 
 ## Developing
 
