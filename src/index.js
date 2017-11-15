@@ -1,3 +1,5 @@
+const { ApolloLink } = require('apollo-link');
+
 const formatMessage = (operationType, operation, ellapsed) => {
   const headerCss = [
     'color: gray; font-weight: lighter', // title
