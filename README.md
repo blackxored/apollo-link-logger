@@ -51,12 +51,6 @@ ApolloLink.from([
 
 ## Developing
 
-### Built With
-
-List libraries, frameworks, including versions.
-
-### Pre-requisites
-
 ### Setting up Dev
 
 Here's a brief intro about what a developer must do in order to start 
@@ -67,9 +61,6 @@ git clone https://github.com/blackxoredapollo-link-logger
 cd apollo-link-logger
 yarn
 ```
-
-And state what happens step-by-step. If there is any virtual environment, 
-local server or database feeder needed, explain here.
 
 ## Versioning
 
@@ -83,23 +74,10 @@ For the versions available, see the [Releases][releases] on this repository.
 We base our code style on [AirBnB's style guide][airbnb-style] and we check with 
 [ESLint][eslint] and automatically format our code with [Prettier][prettier].
 
-## Api Reference
-
-If the api is external, link to api documentation. If not describe your api 
-including authentication methods as well as explaining all the endpoints with 
-their required parameters. Pointing to live documentation (such as GraphiQL
-URL if you're using GraphQL) it's more than helpful.
-
 ## License
 
 This project is licensed under the MIT License - see the 
 [license] file for details.
-
-## Acknowledgments 
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
 
 ## Contributing
 
