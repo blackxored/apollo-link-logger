@@ -30,23 +30,23 @@ local machine for development and testing purposes.
 A quick introduction of the minimal setup you need to get a hello world up & running.
 
 ```shell
-commands here
+npm install apollo-link-logger
 ```
-
-Here you should say what actually happens when you execute the code above.
-
-See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-```shell
-Give examples
-```
+* Apollo Link.
 
-### Installing
+### Usage
 
-```shell
-Give examples
+```javascript
+import apolloLogger from 'apollo-link-logger';
+
+// ...
+ApolloLink.from([
+  apolloLogger,
+  // ...
+]);
 ```
 
 ## Developing
@@ -71,41 +71,12 @@ yarn
 And state what happens step-by-step. If there is any virtual environment, 
 local server or database feeder needed, explain here.
 
-### Building
-
-If your project needs some additional steps for the developer to build the
-project after some code changes, state them here. for example:
-
-```shell
-./configure
-make
-make install
-```
-
-Here again you should state what actually happens when the code above gets
-executed.
-
-## Deploying / Publishing
-
-Add additional notes on how to deploy or publish this package.
-
 ## Versioning
 
 We use [SemVer][semver] for versioning. In addition, it's automatic via
 [semantic-release][semantic-release], and our [commit convention][commit-convention].
 
 For the versions available, see the [Releases][releases] on this repository.
-
-## Configuration
-
-Here you should write what are all of the configurations a user can enter when
-using the project.
-
-## Tests
-
-```shell
-yarn test
-```
 
 ## Style guide
 
