@@ -67,6 +67,9 @@
     "prettier": "^1.8.1",
     "semantic-release": "^8.2.0"
   },
+  "peerDependendices": {
+    "apollo-link": "^1.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/blackxored/apollo-link-logger.git"
