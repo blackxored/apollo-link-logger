@@ -12,7 +12,7 @@ const formatMessage = (operationType, operation, ellapsed) => {
   parts.push(`%c${operation.operationName}`);
   parts.push(`%c(in ${ellapsed} ms)`);
 
-  return [parts.join(' ', ...headerCss)];
+  return [parts.join(' '), ...headerCss];
 };
 
 module.exports = formatMessage;

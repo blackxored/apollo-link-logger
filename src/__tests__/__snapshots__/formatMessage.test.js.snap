@@ -3,11 +3,19 @@
 exports[`formatMessage returns a list of strings suitable for console logging 1`] = `
 Array [
   "%c apollo %cquery %cFormatMessageQuery %c(in 1000 ms)",
+  "color: gray; font-weight: lighter",
+  "color: #03A9F4;",
+  "color: #000;",
+  "color: gray; font-weight: lighter;",
 ]
 `;
 
 exports[`formatMessage returns a list of strings suitable for console logging 2`] = `
 Array [
   "%c apollo %cmutation %cFormatMessageMutation %c(in 500 ms)",
+  "color: gray; font-weight: lighter",
+  "color: red;",
+  "color: #000;",
+  "color: gray; font-weight: lighter;",
 ]
 `;
