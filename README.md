@@ -71,7 +71,7 @@ Here's a brief intro about what a developer must do in order to start
 developing the project further:
 
 ```shell
-git clone https://github.com/blackxoredapollo-link-logger
+git clone https://github.com/blackxored/apollo-link-logger
 cd apollo-link-logger
 yarn
 ```
