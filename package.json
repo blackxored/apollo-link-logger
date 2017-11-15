@@ -67,7 +67,7 @@
     "prettier": "^1.8.1",
     "semantic-release": "^8.2.0"
   },
-  "peerDependendices": {
+  "peerDependencies": {
     "apollo-link": "^1.0.0"
   },
   "repository": {
