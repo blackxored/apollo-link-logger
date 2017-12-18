@@ -57,8 +57,8 @@
     "babel": true
   },
   "devDependencies": {
-    "@commitlint/cli": "^4.2.2",
-    "@commitlint/config-angular": "^3.1.1",
+    "@commitlint/cli": "^5.2.5",
+    "@commitlint/config-conventional": "^5.2.3",
     "all-contributors-cli": "^4.6.0",
     "babel-cli": "^6.0.0",
     "babel-core": "^6.0.0",
