@@ -27,4 +27,4 @@ const logging = (() => {
   };
 })();
 
-module.exports = logging;
+export default logging;

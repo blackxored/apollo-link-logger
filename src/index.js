@@ -1,6 +1,6 @@
-const { ApolloLink } = require('apollo-link');
-const formatMessage = require('./formatMessage');
-const logging = require('./logging');
+import { ApolloLink } from 'apollo-link';
+import formatMessage from './formatMessage';
+import logging from './logging';
 
 const loggerLink = new ApolloLink((operation, forward) => {
   const startTime = new Date().getTime();
@@ -21,4 +21,4 @@ const loggerLink = new ApolloLink((operation, forward) => {
   });
 });
 
-module.exports = loggerLink;
+export default loggerLink;

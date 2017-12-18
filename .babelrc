@@ -1,0 +1,8 @@
+{
+  "presets": "env",
+  "env": {
+    "cjs": {
+      "plugins": [["transform-es2015-modules-commonjs", { "loose": true }]]
+    }
+  }
+}

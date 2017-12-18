@@ -15,4 +15,4 @@ const formatMessage = (operationType, operation, ellapsed) => {
   return [parts.join(' '), ...headerCss];
 };
 
-module.exports = formatMessage;
+export default formatMessage;

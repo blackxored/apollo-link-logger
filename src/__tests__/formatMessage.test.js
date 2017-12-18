@@ -1,4 +1,4 @@
-const formatMessage = require('../formatMessage');
+import formatMessage from '../formatMessage';
 
 describe('formatMessage', () => {
   it('returns a list of strings suitable for console logging', () => {

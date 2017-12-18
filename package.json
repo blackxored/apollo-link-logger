@@ -3,23 +3,34 @@
   "version": "0.0.0-development",
   "description": "Logger for Apollo Link that uses a similar format to redux-logger. Includes performance information.",
   "author": "Adrian Perez adrian@adrianperez.org",
-  "main": "src/index.js",
+  "module": "es/index.js",
+  "main": "lib/index.js",
   "engines": {
     "node": "> 4",
     "npm": "> 3"
   },
+
+  "files": [
+    "es",
+    "dist",
+    "lib"
+  ],
   "scripts": {
     "start": "webpack",
     "commit": "commit",
     "precommit": "lint-staged",
     "commitmsg": "commitlint -e $GIT_PARAMS",
+    "clean": "rimraf es/* src/* dist/* coverage/*",
     "flow": "flow",
     "lint": "eslint",
     "add-contributor": "all-contributors add",
     "generate-contributors": "all-contributors generate",
-    "build": "exit 0",
+    "build:es":  "cross-env BABEL_ENV=es babel src -q -d es",
+    "build:cjs": "cross-env BABEL_ENV=cjs babel src -q -d lib",
+    "build": "npm run build:es && npm run build:cjs",
     "test": "jest",
     "prettier:js": "prettier --write --trailing-comma all --tab-width 2 --single-quote --parser flow --print-width 80 \"src/**/*.js\" \"!**/dist/**\"",
+    "prepare": "npm run build",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "lint-staged": {
@@ -35,6 +46,7 @@
     }
   },
   "jest": {
+    "testMatch": ["<rootDir>/src/**/*.test.js"],
     "collectCoverageFrom": [
       "src/**/*.js",
       "!**/node_modules/**",
@@ -48,10 +60,14 @@
     "@commitlint/cli": "^4.2.2",
     "@commitlint/config-angular": "^3.1.1",
     "all-contributors-cli": "^4.6.0",
+    "babel-cli": "^6.0.0",
+    "babel-core": "^6.0.0",
     "babel-eslint": "^7.2.3",
     "babel-preset-env": "^1.6.0",
     "babel-jest": "21.0.0",
     "commitizen": "^2.9.6",
+    "cross-env": "^2.0.1",
+    "rimraf": "~2.3.2",
     "eslint": "^4.6.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-prettier": "^2.4.0",
