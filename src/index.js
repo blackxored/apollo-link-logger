@@ -1,5 +1,6 @@
 const { ApolloLink } = require('apollo-link');
 const formatMessage = require('./formatMessage');
+const logging = require('./logging');
 
 const loggerLink = new ApolloLink((operation, forward) => {
   const startTime = new Date().getTime();
@@ -10,12 +11,12 @@ const loggerLink = new ApolloLink((operation, forward) => {
 
     const group = formatMessage(operationType, operation, ellapsed);
 
-    console.groupCollapsed(...group);
+    logging.groupCollapsed(...group);
 
-    console.log('INIT', operation);
-    console.log('RESULT', result);
+    logging.log('INIT', operation);
+    logging.log('RESULT', result);
 
-    console.groupEnd(...group);
+    logging.groupEnd(...group);
     return result;
   });
 });

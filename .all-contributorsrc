@@ -18,6 +18,15 @@
         "infra",
         "test"
       ]
+    },
+    {
+      "login": "adambom",
+      "name": "Adam Savitzky",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/294597?s=460&v=4",
+      "profile": "https://github.com/adambom",
+      "contributions": [
+        "code"
+      ]
     }
   ]
 }
