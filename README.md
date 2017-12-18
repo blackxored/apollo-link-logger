@@ -11,7 +11,7 @@
 [![AirBnB style guide][airbnb-style-badge]][airbnb-style]
 
 [![MIT License][license-badge]][LICENSE]
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 [![PRs Welcome][prs-badge]][prs]
 [![Commitizen friendly][commitizen-badge]][commitizen]
 [![Code of Conduct][coc-badge]][coc]
@@ -63,6 +63,11 @@ ApolloLink.from([
 
 ![Full](https://github.com/blackxored/apollo-link-logger/blob/master/docs/example-output-full.png)
 
+## Usage with React Native and other restricted environments
+
+We include a polyfilled version of `console.groupCollapsed` and `console.groupEnd` that
+invokes `console.log` with slightly different prefix to separate output.
+
 ## Developing
 
 ### Setting up Dev
@@ -109,8 +114,8 @@ will and will not be tolerated.
 Thanks goes to these people ([emoji key][emojis]):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-| [<img src="https://avatars3.githubusercontent.com/u/133308?v=4" width="100px;"/><br /><sub><b>Adrian Perez</b></sub>](https://adrianperez.codes)<br />[💻](https://github.com/blackxored/apollo-link-logger/commits?author=blackxored "Code") [📖](https://github.com/blackxored/apollo-link-logger/commits?author=blackxored "Documentation") [🚇](#infra-blackxored "Infrastructure (Hosting, Build-Tools, etc)") [⚠️](https://github.com/blackxored/apollo-link-logger/commits?author=blackxored "Tests") |
-| :---: |
+| [<img src="https://avatars3.githubusercontent.com/u/133308?v=4" width="100px;"/><br /><sub><b>Adrian Perez</b></sub>](https://adrianperez.codes)<br />[💻](https://github.com/blackxored/apollo-link-logger/commits?author=blackxored "Code") [📖](https://github.com/blackxored/apollo-link-logger/commits?author=blackxored "Documentation") [🚇](#infra-blackxored "Infrastructure (Hosting, Build-Tools, etc)") [⚠️](https://github.com/blackxored/apollo-link-logger/commits?author=blackxored "Tests") | [<img src="https://avatars3.githubusercontent.com/u/294597?s=460&v=4" width="100px;"/><br /><sub><b>Adam Savitzky</b></sub>](https://github.com/adambom)<br />[💻](https://github.com/blackxored/apollo-link-logger/commits?author=adambom "Code") |
+| :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors][all-contributors] specification.
