@@ -1,6 +1,6 @@
 # apollo-link-logger
 
-> A logger for Apollo Link that reassembles redux-logger
+> A logger for Apollo Link that ressembles redux-logger
 
 [![Semantically Released][semantic-release-badge]][semantic-release]
 [![Build Status][build-badge]][build]
@@ -24,7 +24,7 @@ Logger for Apollo Link that uses a similar format to redux-logger. Includes perf
 
 ## Installing / Getting Started
 
-These instructions will get you a copy of the project up and running on your 
+These instructions will get you a copy of the project up and running on your
 local machine for development and testing purposes. 
 
 A quick introduction of the minimal setup you need to get a hello world up & running.
