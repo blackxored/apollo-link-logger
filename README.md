@@ -159,5 +159,5 @@ Contributions of any kind welcome!
 [all-contributors]: https://github.com/kentcdodds/all-contributors
 [semver]: http://semver.org/
 [releases]: https://github.com/blackxored/apollo-link-logger/releases
-[commit-convention]: https://www.npmjs.com/package/@commitlint/config-angular
+[commit-convention]: https://www.npmjs.com/package/@commitlint/config-conventional
 
