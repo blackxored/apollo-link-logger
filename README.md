@@ -1,6 +1,6 @@
 # apollo-link-logger
 
-> A logger for Apollo Link that ressembles redux-logger
+> A logger for Apollo Link that resembles redux-logger
 
 [![Semantically Released][semantic-release-badge]][semantic-release]
 [![Build Status][build-badge]][build]
