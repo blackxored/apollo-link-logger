@@ -29,6 +29,7 @@ dist/
 build/
 es/
 lib/
+coverage/
 
 
 ### SublimeText ###
