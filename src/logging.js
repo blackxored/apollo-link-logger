@@ -1,3 +1,6 @@
+const bindToConsole = (consoleMethod, polyfill) =>
+  consoleMethod ? consoleMethod.bind(console) : polyfill;
+
 const logging = (() => {
   let prefix = '';
 
@@ -21,9 +24,9 @@ const logging = (() => {
   return {
     log: consoleLog,
     error: consoleError,
-    group: console.group || consoleGroup,
-    groupCollapsed: console.groupCollapsed || consoleGroup,
-    groupEnd: console.groupEnd || consoleGroupEnd,
+    group: bindToConsole(console.group, consoleGroup),
+    groupCollapsed: bindToConsole(console.groupCollapsed, consoleGroup),
+    groupEnd: bindToConsole(console.groupEnd, consoleGroupEnd),
   };
 })();
 
