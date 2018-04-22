@@ -1,5 +1,7 @@
-const bindToConsole = (consoleMethod, polyfill) =>
-  consoleMethod ? consoleMethod.bind(console) : polyfill;
+/* eslint-disable no-console */
+const bindToConsole = (consoleMethod, polyfill) => {
+  return consoleMethod ? consoleMethod.bind(console) : polyfill;
+};
 
 const logging = (() => {
   let prefix = '';

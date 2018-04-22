@@ -11,6 +11,7 @@ module.exports = {
     jest: true,
   },
   rules: {
+    'arrow-body-style': 0,
     'arrow-parens': 0, // does not work with Flow generic types.
     'global-require': 0, // used by react-native
     'import/first': 0, // we sort by unit/atom

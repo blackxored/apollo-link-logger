@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved,import/extensions */
 import { ApolloLink } from 'apollo-link';
 import formatMessage from './formatMessage';
 import logging from './logging';

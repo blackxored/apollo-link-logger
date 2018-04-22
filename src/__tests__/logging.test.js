@@ -1,4 +1,4 @@
-import logging from '../logging.js';
+import logging from '../logging';
 
 const logSpy = jest.spyOn(global.console, 'log');
 

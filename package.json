@@ -23,7 +23,7 @@
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "clean": "rimraf es/* src/* dist/* coverage/*",
     "flow": "flow",
-    "lint": "eslint",
+    "lint": "eslint src",
     "add-contributor": "all-contributors add",
     "generate-contributors": "all-contributors generate",
     "build:es":  "cross-env BABEL_ENV=es babel src -q -d es",
