@@ -2,7 +2,7 @@ const formatMessage = (operationType, operation, ellapsed) => {
   const headerCss = [
     'color: gray; font-weight: lighter', // title
     `color: ${operationType === 'query' ? '#03A9F4' : 'red'};`, // operationType
-    'color: #000;', // operationName
+    'color: inherit;', // operationName
     'color: gray; font-weight: lighter;', // time, etc
   ];
 

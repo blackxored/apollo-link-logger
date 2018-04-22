@@ -5,7 +5,7 @@ Array [
   "%c apollo %csubscription %cMessagesSubscription",
   "color: gray; font-weight: lighter",
   "color: red;",
-  "color: #000;",
+  "color: inherit;",
   "color: gray; font-weight: lighter;",
 ]
 `;
@@ -15,7 +15,7 @@ Array [
   "%c apollo %cquery %cFormatMessageQuery %c(in 1000 ms)",
   "color: gray; font-weight: lighter",
   "color: #03A9F4;",
-  "color: #000;",
+  "color: inherit;",
   "color: gray; font-weight: lighter;",
 ]
 `;
@@ -25,7 +25,7 @@ Array [
   "%c apollo %cmutation %cFormatMessageMutation %c(in 500 ms)",
   "color: gray; font-weight: lighter",
   "color: red;",
-  "color: #000;",
+  "color: inherit;",
   "color: gray; font-weight: lighter;",
 ]
 `;
