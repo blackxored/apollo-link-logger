@@ -1,5 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`formatMessage does not include performance information for subscriptions 1`] = `
+Array [
+  "%c apollo %csubscription %cMessagesSubscription",
+  "color: gray; font-weight: lighter",
+  "color: red;",
+  "color: #000;",
+  "color: gray; font-weight: lighter;",
+]
+`;
+
 exports[`formatMessage returns a list of strings suitable for console logging 1`] = `
 Array [
   "%c apollo %cquery %cFormatMessageQuery %c(in 1000 ms)",

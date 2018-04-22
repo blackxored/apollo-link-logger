@@ -10,7 +10,10 @@ const formatMessage = (operationType, operation, ellapsed) => {
 
   parts.push(`%c${operationType}`);
   parts.push(`%c${operation.operationName}`);
-  parts.push(`%c(in ${ellapsed} ms)`);
+
+  if (operationType !== 'subscription') {
+    parts.push(`%c(in ${ellapsed} ms)`);
+  }
 
   return [parts.join(' '), ...headerCss];
 };

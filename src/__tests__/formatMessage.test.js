@@ -14,4 +14,14 @@ describe('formatMessage', () => {
       ),
     ).toMatchSnapshot();
   });
+
+  it('does not include performance information for subscriptions', () => {
+    expect(
+      formatMessage(
+        'subscription',
+        { operationName: 'MessagesSubscription' },
+        500,
+      ),
+    ).toMatchSnapshot();
+  });
 });
