@@ -10,7 +10,6 @@
     "node": "> 4",
     "npm": "> 3"
   },
-
   "files": [
     "es",
     "dist",
@@ -26,13 +25,14 @@
     "lint": "eslint src",
     "add-contributor": "all-contributors add",
     "generate-contributors": "all-contributors generate",
-    "build:es":  "cross-env BABEL_ENV=es babel src -q -d es",
+    "build:es": "cross-env BABEL_ENV=es babel src -q -d es",
     "build:cjs": "cross-env BABEL_ENV=cjs babel src -q -d lib",
     "build": "npm run build:es && npm run build:cjs",
     "test": "jest",
     "prettier:js": "prettier --write --trailing-comma all --tab-width 2 --single-quote --parser flow --print-width 80 \"src/**/*.js\" \"!**/dist/**\"",
     "prepare": "npm run build",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "lint-staged": {
     "*.js": [
@@ -47,7 +47,9 @@
     }
   },
   "jest": {
-    "testMatch": ["<rootDir>/src/**/*.test.js"],
+    "testMatch": [
+      "<rootDir>/src/**/*.test.js"
+    ],
     "collectCoverageFrom": [
       "src/**/*.js",
       "!**/node_modules/**",
@@ -82,7 +84,8 @@
     "jest": "^22.4.3",
     "lint-staged": "^7.0.4",
     "prettier": "^1.8.1",
-    "semantic-release": "^15.1.7"
+    "semantic-release": "^15.1.7",
+    "travis-deploy-once": "^4.4.1"
   },
   "peerDependencies": {
     "apollo-link": "^1.0.0"
