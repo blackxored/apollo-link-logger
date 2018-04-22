@@ -13,7 +13,7 @@ before_script: greenkeeper-lockfile-update
 after_script: greenkeeper-lockfile-upload
 install: yarn install --ignore-engines
 after_success:
-  - npm run semantic-release
+  - npm run travis-deploy-once "npm run semantic-release"
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
