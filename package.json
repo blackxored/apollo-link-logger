@@ -85,7 +85,7 @@
     "lint-staged": "^7.0.4",
     "prettier": "^1.8.1",
     "semantic-release": "^15.1.7",
-    "travis-deploy-once": "^4.4.1"
+    "travis-deploy-once": "^5.0.0"
   },
   "peerDependencies": {
     "apollo-link": "^1.0.0"
