@@ -21,7 +21,6 @@
     "precommit": "lint-staged",
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "clean": "rimraf es/* src/* dist/* coverage/*",
-    "flow": "flow",
     "lint": "eslint src",
     "add-contributor": "all-contributors add",
     "generate-contributors": "all-contributors generate",
@@ -29,14 +28,14 @@
     "build:cjs": "cross-env BABEL_ENV=cjs babel src -q -d lib",
     "build": "npm run build:es && npm run build:cjs",
     "test": "jest",
-    "prettier:js": "prettier --write --trailing-comma all --tab-width 2 --single-quote --parser flow --print-width 80 \"src/**/*.js\" \"!**/dist/**\"",
+    "prettier:js": "prettier --write --trailing-comma all --tab-width 2 --single-quote --print-width 80 \"src/**/*.js\" \"!**/dist/**\"",
     "prepare": "npm run build",
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once"
   },
   "lint-staged": {
     "*.js": [
-      "prettier --write --trailing-comma all --tab-width 2 --single-quote --parser flow --print-width 80",
+      "prettier --write --trailing-comma all --tab-width 2 --single-quote --print-width 80",
       "git add",
       "jest --bail --findRelatedTests"
     ]
@@ -74,12 +73,10 @@
     "eslint": "^4.6.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-prettier": "^2.4.0",
-    "eslint-plugin-flowtype": "^2.35.1",
     "eslint-plugin-fp": "^2.3.0",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jest": "^21.0.0",
     "eslint-plugin-prettier": "^2.2.0",
-    "flow-bin": "^0.71.0",
     "husky": "^0.14.3",
     "jest": "^22.4.3",
     "lint-staged": "^7.0.4",
