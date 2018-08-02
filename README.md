@@ -11,7 +11,7 @@
 [![AirBnB style guide][airbnb-style-badge]][airbnb-style]
 
 [![MIT License][license-badge]][LICENSE]
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors)
 [![PRs Welcome][prs-badge]][prs]
 [![Commitizen friendly][commitizen-badge]][commitizen]
 [![Code of Conduct][coc-badge]][coc]
@@ -115,8 +115,8 @@ Thanks goes to these people ([emoji key][emojis]):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars3.githubusercontent.com/u/133308?v=4" width="100px;"/><br /><sub><b>Adrian Perez</b></sub>](https://adrianperez.codes)<br />[💻](https://github.com/blackxored/apollo-link-logger/commits?author=blackxored "Code") [📖](https://github.com/blackxored/apollo-link-logger/commits?author=blackxored "Documentation") [🚇](#infra-blackxored "Infrastructure (Hosting, Build-Tools, etc)") [⚠️](https://github.com/blackxored/apollo-link-logger/commits?author=blackxored "Tests") | [<img src="https://avatars3.githubusercontent.com/u/294597?s=460&v=4" width="100px;"/><br /><sub><b>Adam Savitzky</b></sub>](https://github.com/adambom)<br />[💻](https://github.com/blackxored/apollo-link-logger/commits?author=adambom "Code") | [<img src="https://avatars3.githubusercontent.com/u/3065138?v=4" width="100px;"/><br /><sub><b>Ifeanyi Oraelosi</b></sub>](https://github.com/gnerkus)<br />[💻](https://github.com/blackxored/apollo-link-logger/commits?author=gnerkus "Code") | [<img src="https://avatars0.githubusercontent.com/u/7076981?v=4" width="100px;"/><br /><sub><b>Romario</b></sub>](https://github.com/romarioraffington)<br />[🐛](https://github.com/blackxored/apollo-link-logger/issues?q=author%3Aromarioraffington "Bug reports") [🤔](#ideas-romarioraffington "Ideas, Planning, & Feedback") |
-| :---: | :---: | :---: | :---: |
+| [<img src="https://avatars3.githubusercontent.com/u/133308?v=4" width="100px;"/><br /><sub><b>Adrian Perez</b></sub>](https://adrianperez.codes)<br />[💻](https://github.com/blackxored/apollo-link-logger/commits?author=blackxored "Code") [📖](https://github.com/blackxored/apollo-link-logger/commits?author=blackxored "Documentation") [🚇](#infra-blackxored "Infrastructure (Hosting, Build-Tools, etc)") [⚠️](https://github.com/blackxored/apollo-link-logger/commits?author=blackxored "Tests") | [<img src="https://avatars3.githubusercontent.com/u/294597?s=460&v=4" width="100px;"/><br /><sub><b>Adam Savitzky</b></sub>](https://github.com/adambom)<br />[💻](https://github.com/blackxored/apollo-link-logger/commits?author=adambom "Code") | [<img src="https://avatars3.githubusercontent.com/u/3065138?v=4" width="100px;"/><br /><sub><b>Ifeanyi Oraelosi</b></sub>](https://github.com/gnerkus)<br />[💻](https://github.com/blackxored/apollo-link-logger/commits?author=gnerkus "Code") | [<img src="https://avatars0.githubusercontent.com/u/7076981?v=4" width="100px;"/><br /><sub><b>Romario</b></sub>](https://github.com/romarioraffington)<br />[🐛](https://github.com/blackxored/apollo-link-logger/issues?q=author%3Aromarioraffington "Bug reports") [🤔](#ideas-romarioraffington "Ideas, Planning, & Feedback") | [<img src="https://avatars0.githubusercontent.com/u/6183943?v=4" width="100px;"/><br /><sub><b>Yuriy Kornienko</b></sub>](http://www.dinamchiki.ru)<br />[💻](https://github.com/blackxored/apollo-link-logger/commits?author=Horoshiy "Code") |
+| :---: | :---: | :---: | :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors][all-contributors] specification.
