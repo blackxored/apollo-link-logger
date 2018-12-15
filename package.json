@@ -83,7 +83,7 @@
     "prettier": "^1.8.1",
     "rimraf": "~2.6.2",
     "semantic-release": "^15.9.3",
-    "travis-deploy-once": "^5.0.1"
+    "travis-deploy-once": "^5.0.11"
   },
   "peerDependencies": {
     "apollo-link": "^1.0.0"
