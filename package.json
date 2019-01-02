@@ -81,7 +81,7 @@
     "jest": "^22.4.3",
     "lint-staged": "^7.0.4",
     "prettier": "^1.8.1",
-    "rimraf": "~2.6.2",
+    "rimraf": "~2.6.3",
     "semantic-release": "^15.9.3",
     "travis-deploy-once": "^5.0.1"
   },
