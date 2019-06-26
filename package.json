@@ -82,7 +82,7 @@
     "lint-staged": "^7.0.4",
     "prettier": "^1.8.1",
     "rimraf": "~2.6.2",
-    "semantic-release": "^15.9.3",
+    "semantic-release": "^15.13.18",
     "travis-deploy-once": "^5.0.1"
   },
   "peerDependencies": {
