@@ -67,7 +67,7 @@
     "babel-eslint": "^8.2.3",
     "babel-jest": "23.0.1",
     "babel-preset-env": "^1.6.0",
-    "commitizen": "^2.9.6",
+    "commitizen": "^3.1.2",
     "cross-env": "^5.1.4",
     "eslint": "^5.0.0",
     "eslint-config-airbnb-base": "^12.1.0",
