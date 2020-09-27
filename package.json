@@ -7,7 +7,7 @@
   "module": "es/index.js",
   "main": "lib/index.js",
   "engines": {
-    "node": "> 10",
+    "node": ">= 10",
     "npm": "> 3"
   },
   "files": [
