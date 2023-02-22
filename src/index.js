@@ -1,5 +1,5 @@
 /* eslint-disable import/no-unresolved,import/extensions */
-import { ApolloLink } from '@apollo/client';
+import { ApolloLink } from '@apollo/client/core';
 import formatMessage from './formatMessage';
 import logging from './logging';
 
