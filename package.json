@@ -2,7 +2,7 @@
   "name": "apollo-link-logger",
   "version": "0.0.0-development",
   "description": "Logger for Apollo Link that uses a similar format to redux-logger. Includes performance information.",
-  "author": "Adrian Perez adrian@adrianperez.org",
+  "author": "Adrian Perez <adrian@adrianperez.org>",
   "license": "MIT",
   "module": "es/index.js",
   "main": "lib/index.js",
@@ -86,7 +86,7 @@
     "travis-deploy-once": "^5.0.1"
   },
   "peerDependencies": {
-    "@apollo/client": "^3.0.0"
+    "@apollo/client": "^4.0.0"
   },
   "repository": {
     "type": "git",
