@@ -64,6 +64,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "maxsalven",
+      "name": "Max Salvén",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4144910?v=4",
+      "profile": "https://www.wodup.com",
+      "contributions": [
+        "bug",
+        "code"
+      ]
     }
   ],
   "repoType": "github"
