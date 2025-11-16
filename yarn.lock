@@ -821,7 +821,7 @@ __metadata:
     semantic-release: ^15.9.3
     travis-deploy-once: ^5.0.1
   peerDependencies:
-    "@apollo/client": ^3.0.0
+    "@apollo/client": ^4.0.0
   languageName: unknown
   linkType: soft
 
@@ -6251,27 +6251,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:^3.11.0":
-  version: 3.12.0
-  resolution: "js-yaml@npm:3.12.0"
+"js-yaml@npm:^3.11.0, js-yaml@npm:^3.7.0, js-yaml@npm:^3.9.0":
+  version: 3.14.2
+  resolution: "js-yaml@npm:3.14.2"
   dependencies:
     argparse: ^1.0.7
     esprima: ^4.0.0
   bin:
     js-yaml: bin/js-yaml.js
-  checksum: 9dd7e0ddb512186c1efad13a8a0fd2139c2c9fa09bc083e71ea73600935e890fbff8e641e49825b38106c8db0cb711b98085df1503d9cac903988757c91bd78d
-  languageName: node
-  linkType: hard
-
-"js-yaml@npm:^3.7.0, js-yaml@npm:^3.9.0":
-  version: 3.11.0
-  resolution: "js-yaml@npm:3.11.0"
-  dependencies:
-    argparse: ^1.0.7
-    esprima: ^4.0.0
-  bin:
-    js-yaml: bin/js-yaml.js
-  checksum: 800c33184c79557a183d982049c97a269b3863871d3e8c82226e6dc72c00756a48dba82a4b80b8af589953d78971344cc24bcdb503861e8d88683b923f80d2bf
+  checksum: 626fc207734a3452d6ba84e1c8c226240e6d431426ed94d0ab043c50926d97c509629c08b1d636f5d27815833b7cfd225865631da9fb33cb957374490bf3e90b
   languageName: node
   linkType: hard
 
